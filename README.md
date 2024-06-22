@@ -1,6 +1,6 @@
 # MR-Drones-And-CV
-#### <<<<<Project files will be uploaded here soon.>>>>>
-A seamless integration of Quarotor Simulation and Detection and Tracking Model: YOLOv8.
+
+## A seamless integration of Quarotor Simulation and Detection and Tracking Model: YOLOv8.
 
 
 ## Quadrotor Simulation and Map:
@@ -46,7 +46,7 @@ In this script, you can change:
 |                       | Max Output Boxes      | Defines the maximum bounding boxes to show for performance-related concerns.                         |
 | **Camera and Display**| Camera                | The main source camera view used for detection. Can be changed to any other camera.                  |
 |                       | Display Image         | A Raw Image to display the detection results. Currently, only capable of showing results on Raw Image. |
-|                       | Frame Background      | A black background that gives a frame-like feel when the model is run.                               |
+|                       | Frame Background      | A black background that gives a frame-like feel when the model is running.                           |
 |                       | Target RT             | The targeted render texture to draw the output. Should be kept as None as it is assigned at runtime.    |
 |                       | Capture Width         | The camera's current view's width dimension.                                                         |
 |                       | Capture Height        | The camera's current view's height dimension.                                                        |
@@ -91,3 +91,7 @@ As part of this project, we also implemented a framework in which we designed th
 | **Full Simulated World**      | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulated_Farm.png" width="320" height="180"> | **Farm**                      | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/FARM.png" width="320" height="180"> |
 | **Third Person Drone View**   | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Third_Person_Drone_View.png" width="320" height="180"> | **First Person Drone View**   | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/First%20_Person_Drone_View.png" width="320" height="180"> |
 | **Animals in the Farm**       | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/FARM_with_Animals.png" width="320" height="180"> | **Animals Detection**         | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Animals_Detection.png" width="320" height="180"> |
+
+
+
+#### Unity Project files will be uploaded here soon!
