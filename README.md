@@ -24,7 +24,7 @@ The model used for this project is [YOLOv8](https://github.com/ultralytics/ultra
 ![YOLO detection and tracking results](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/YOLO_OUTPUT.gif)
 
 ## Detection and Tracking Integration within Simulated World:
-DetandTrack.cs file is the main code for the model inference during runtime. The same file can be used for other versions of the YOLOv8.
+[DetAndTrack.cs](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Detection%20and%20Tracking/DetAndTrack.cs) file is the main code for the model inference during runtime. The same file can be used for other versions of the YOLOv8.
 There are a lot of customization options to work around for your model in that script.
 
 ![Detection and Tracking Script Variables](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Detection_and_Tracking_Script_Variables.png)
@@ -34,7 +34,7 @@ In this script, you can change:
 |-----------------------|-----------------------|-----------------------------------------------------------------------------------------------------|
 | **Controls**          | Run Model             | Dynamically turn the model ON/OFF. (Key "Y" is assigned)                                             |
 |                       | Limit Frame Rate      | Limit the framerates for performance-related concerns. Another text field will appear for the frame limit. |
-| **Model**             | Model Asset           | The version of the model of YOLOv8.                                                                  |
+| **Model**             | [Model Asset](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Detection%20and%20Tracking/yolov8n.onnx)           | The version of the model of YOLOv8 in ONNX format.|
 |                       | Iou Threshold         | Defines the minimum score for each detection to display.                                             |
 |                       | Score Threshold       | Defines the minimum confidence score for each detection.                                             |
 |                       | Max Output Boxes      | Defines the maximum bounding boxes to show for performance-related concerns.                         |
@@ -47,8 +47,8 @@ In this script, you can change:
 |                       | Image Width           | The target result's width dimension. 640 is the standard output dimension of YOLOv8.                 |
 |                       | Image Height          | The target result's height dimension. 640 is the standard output dimension of YOLOv8.                |
 | **Bounding Boxes**    | Border Sprite         | A sprite created during runtime.                                                                     |
-|                       | Border Texture        | A small black block image.                                                                           |
-|                       | Labels Asset          | A .txt file containing names of all YOLO classes.                                                    |
+|                       | Border Texture        | A small block image.                                                                                 |
+|                       | [Labels Asset](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Detection%20and%20Tracking/classes.txt)          | A ".txt" file containing names of all YOLO classes.|
 |                       | Font                  | The font type used for the class names in the bounding boxes.                                        |
 
 
