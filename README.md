@@ -3,22 +3,24 @@
 A seamless integration of Quarotor Simulation and Detection and Tracking Model: YOLOv8.
 
 
-#### Quadrotor Simulation and Map:
+## Quadrotor Simulation and Map:
 
 This project contains a realistic, physics-based drone simulation. There are different models and controlling variables to control the drone pilot system.
 The map of the world contains different objects like Terrain, Road maps, Football goals, cones, dominos, Buses, Humans, Animals (cows), trucks, a farmhouse, and some random stuff too for realism.
 
-#### Quadcopter in the simulation:
+## Quadcopter in the simulation (might take a while to load on slower internet):
 ![YOLO detection and tracking results](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Quadrotor_Simulation.gif)
 
-#### Computer Vision and AI:
+## Computer Vision and AI:
 The project is using the latest version of [Sentis](https://unity.com/products/sentis) 1.4.0-pre.3.
 Sentis is an experimental package introduced by Unity for the integration of AI models and the Unity engine.
 The model used for this project is [YOLOv8](https://github.com/ultralytics/ultralytics) Nano Version.
-Detection Results:
+
+Detection Results (might take a while to load on slower internet):
+
 ![YOLO detection and tracking results](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/YOLO_OUTPUT.gif)
 
-#### Detection and Tracking Integration within Simulated World:
+## Detection and Tracking Integration within Simulated World:
 DetandTrack.cs file is the main code for the model inference during runtime. The same file can be used for other versions of the YOLOv8.
 There are a lot of customization options to work around for your model in that script.
 
@@ -36,7 +38,7 @@ In this script, you can change:
 | **Camera and Display**| Camera                | The main source camera view used for detection. Can be changed to any other camera.                  |
 |                       | Display Image         | A Raw Image to display the detection results. Currently, only capable of showing results on Raw Image. |
 |                       | Frame Background      | A black background that gives a frame-like feel when the model is run.                               |
-|                       | Target RT             | The targeted render texture to draw the output. Should be kept None as it is assigned at runtime.    |
+|                       | Target RT             | The targeted render texture to draw the output. Should be kept as None as it is assigned at runtime.    |
 |                       | Capture Width         | The camera's current view's width dimension.                                                         |
 |                       | Capture Height        | The camera's current view's height dimension.                                                        |
 |                       | Image Width           | The target result's width dimension. 640 is the standard output dimension of YOLOv8.                 |
@@ -45,3 +47,31 @@ In this script, you can change:
 |                       | Border Texture        | A small black block image.                                                                           |
 |                       | Labels Asset          | A .txt file containing names of all YOLO classes.                                                    |
 |                       | Font                  | The font type used for the class names in the bounding boxes.                                        |
+
+
+
+
+
+## System Designs
+
+System designed followed through out the project.
+#### Simulation System Design
+
+![Simulation System Design](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulation_System_Design.png)
+
+#### Simulation Controls
+
+![Simulation Controls](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulation_Controls.png)
+
+#### DJI Tello and Unity System Design
+As part of this project, we also implemented a framework in which we designed the entire VR system to be used with an actual drone: DJI Tello EDU. In this system, we implemented a comprehensive library in C# for real-time communication with the drone. We also employed a Python-based microservice architecture for receiving video streaming frames and sending them to Unity, as Unity does not natively support the encoding and decoding of PNG files. This part of the project will also be shared soon.
+
+![Tello and Unity System Design](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/TELLO_Unity_System_Design.png)
+
+
+## Other images of the simulation:
+| **Description**               | **Image**                                                                                                             | **Description**               | **Image**                                                                                                             |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **Full Simulated World**      | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulated_Farm.png" width="320" height="180"> | **Farm**                      | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/FARM.png" width="320" height="180"> |
+| **Third Person Drone View**   | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Third_Person_Drone_View.png" width="320" height="180"> | **First Person Drone View**   | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/First%20_Person_Drone_View.png" width="320" height="180"> |
+| **Animals in the Farm**       | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/FARM_with_Animals.png" width="320" height="180"> | **Animals Detection**         | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Animals_Detection.png" width="320" height="180"> |
