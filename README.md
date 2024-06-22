@@ -8,7 +8,9 @@ A seamless integration of Quarotor Simulation and Detection and Tracking Model: 
 This project contains a realistic, physics-based drone simulation. There are different models and controlling variables to control the drone pilot system.
 The map of the world contains different objects like Terrain, Road maps, Football goals, cones, dominos, Buses, Humans, Animals (cows), trucks, a farmhouse, and some random stuff too for realism.
 
-## Quadcopter in the simulation (might take a while to load on slower internet):
+#### Quadcopter in the simulation:
+(might take a while to load)
+
 ![YOLO detection and tracking results](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Quadrotor_Simulation.gif)
 
 ## Computer Vision and AI:
@@ -16,7 +18,8 @@ The project is using the latest version of [Sentis](https://unity.com/products/s
 Sentis is an experimental package introduced by Unity for the integration of AI models and the Unity engine.
 The model used for this project is [YOLOv8](https://github.com/ultralytics/ultralytics) Nano Version.
 
-Detection Results (might take a while to load on slower internet):
+#### Detection Results 
+(might take a while to load)
 
 ![YOLO detection and tracking results](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/YOLO_OUTPUT.gif)
 
