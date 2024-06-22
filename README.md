@@ -10,8 +10,9 @@ The map of the world contains different objects like Terrain, Road maps, Footbal
 
 #### Quadcopter in the simulation:
 (might take a while to load)
-
-![YOLO detection and tracking results](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Quadrotor_Simulation.gif)
+<p align="center">
+  <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Quadrotor_Simulation.gif" alt="Quadrotor in Simulation">
+</p>
 
 ## Computer Vision and AI:
 The project is using the latest version of [Sentis](https://unity.com/products/sentis) 1.4.0-pre.3.
@@ -20,14 +21,19 @@ The model used for this project is [YOLOv8](https://github.com/ultralytics/ultra
 
 #### Detection Results 
 (might take a while to load)
+<p align="center">
+  <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/YOLO_OUTPUT.gif" alt="YOLO detection and tracking results">
+</p>
 
-![YOLO detection and tracking results](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/YOLO_OUTPUT.gif)
 
 ## Detection and Tracking Integration within Simulated World:
 [DetAndTrack.cs](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Detection%20and%20Tracking/DetAndTrack.cs) file is the main code for the model inference during runtime. The same file can be used for other versions of the YOLOv8.
 There are a lot of customization options to work around for your model in that script.
 
-![Detection and Tracking Script Variables](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Detection_and_Tracking_Script_Variables.png)
+<p align="center">
+  <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Detection_and_Tracking_Script_Variables.png" alt="Detection and Tracking Script Variables">
+</p>
+
 
 In this script, you can change:
 | **Section**           | **Variable Name**     | **Description**                                                                                     |
@@ -60,21 +66,28 @@ In this script, you can change:
 System designed followed through out the project.
 #### Simulation System Design
 
-![Simulation System Design](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulation_System_Design.png)
+<p align="center">
+  <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulation_System_Design.png" alt="Simulation System Design">
+</p>
+
 
 #### Simulation Controls
 
-![Simulation Controls](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulation_Controls.png)
+<p align="center">
+  <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulation_Controls.png" alt="Simulation Controls">
+</p>
 
 #### DJI Tello and Unity System Design
 As part of this project, we also implemented a framework in which we designed the entire VR system to be used with an actual drone: DJI Tello EDU. In this system, we implemented a comprehensive library in C# for real-time communication with the drone. We also employed a Python-based microservice architecture for receiving video streaming frames and sending them to Unity, as Unity does not natively support the encoding and decoding of PNG files. This part of the project will also be shared soon.
 
-![Tello and Unity System Design](https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/TELLO_Unity_System_Design.png)
+<p align="center">
+  <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/TELLO_Unity_System_Design.png" alt="Tello and Unity System Design">
+</p>
 
 
 ## Other images of the simulation:
 | **Description**               | **Image**                                                                                                             | **Description**               | **Image**                                                                                                             |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------------|-------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Full Simulated World**      | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulated_Farm.png" width="320" height="180"> | **Farm**                      | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/FARM.png" width="320" height="180"> |
-| **Third Person Drone View**   | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Third_Person_Drone_View.png" width="320" height="180"> | **First Person Drone View**   | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/First%20_Person_Drone_View.png" width="320" height="180"> |
-| **Animals in the Farm**       | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/FARM_with_Animals.png" width="320" height="180"> | **Animals Detection**         | <img src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Animals_Detection.png" width="320" height="180"> |
+| **Full Simulated World**      | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Simulated_Farm.png" width="320" height="180"> | **Farm**                      | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/FARM.png" width="320" height="180"> |
+| **Third Person Drone View**   | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Third_Person_Drone_View.png" width="320" height="180"> | **First Person Drone View**   | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/First%20_Person_Drone_View.png" width="320" height="180"> |
+| **Animals in the Farm**       | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/FARM_with_Animals.png" width="320" height="180"> | **Animals Detection**         | <img align="center" src="https://github.com/AbdullahMushtaq78/MR-Drones-And-CV/blob/main/Results/Animals_Detection.png" width="320" height="180"> |
